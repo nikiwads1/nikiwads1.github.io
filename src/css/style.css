@@ -1,0 +1,297 @@
+body{
+	font-family: Arial, sans-serif;
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	background: #344051;
+}
+
+.logn{
+	color: white;
+	font-size: 27px;
+	line-height: 60px;
+	padding-left: 260px; 
+	float: left;
+}
+
+.menu{
+	float: left;
+	padding-left:430px;  
+	color: white;
+}
+
+.menu li{
+	float: left;
+	line-height: 60px;
+	margin-right: 40px;
+	font-size: 16px;
+	text-transform: uppercase; 
+}
+.main{
+	width: 100%;
+	height: calc(100% - 60px);
+	background:url(../img/man.png) 90% 100% /auto 85% no-repeat , url(../img/font.png) center /cover no-repeat;
+}
+
+.title__container{
+	float: left;
+	margin: 430px 0px 0px 405px;
+	color: #2c384a;
+	text-align: center;
+} 
+
+.title__container h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.title__container h5{
+	margin-top: 40px;
+	font-size: 20px;
+	color: #79818d;
+}
+
+.title__container input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #9ea3ac;
+	background: none;
+	border-radius: 7px;
+	color: #9ea3ac;
+	padding: 0px 16px;
+	margin: 40px 10px;
+}
+
+.me_data{
+	text-align: center;
+	background: url(../img/plashka.png) 50% 20% no-repeat, url(../img/ava.png) 50% 40%  no-repeat;
+}
+
+.me_data h2{
+	font-size: 25px;
+	padding: 110px 0px 325px 0px;
+}
+
+.me_data span{
+	text-align: left;
+	display: block;
+	margin: 25px 595px;
+	font-size: 20px;
+}
+
+.me_data input{
+	height: 35px;
+	text-align: center;
+	border: 2px solid #6f707e;
+	border-radius: 5px;
+	margin: 20px 0px 100px 0px;
+	padding: 10px 5px 10px 5px;
+	background: none;
+	color: #6f707e;
+}
+
+.abilities{
+	background:url(../img/plashka.png) 50% 31% no-repeat,url(../img/develop.png) 40.4% 60% no-repeat, url(../img/gramophone.png) 58.6% 60% no-repeat, url(../img/rocket.png) 78% 60% no-repeat, url(../img/laptop.png) 22.6% 60% no-repeat, url(../img/backabil.png)center /100% 100% no-repeat;
+	height: 520px;
+	text-align: center;
+}
+
+.abilities h2{
+	font-size: 25px;
+	padding: 105px 0px 220px 0px;
+}
+
+.abilities div{
+	display: inline-block;
+	color: #f99006;
+	font-weight: bold;
+	margin: 0px 120px;
+}
+
+.abilities span{
+	display: inline-block;
+	font-size: 15px;
+	width: 215px;
+	margin: 20px 63px;
+}
+
+.cases{
+	background: url(../img/plashka.png)50% 22% no-repeat, url(../img/sample.png) 0% 270px no-repeat;
+	height: 860px;
+}
+
+.cases h2{
+	text-align: center;
+	font-size: 25px;
+	padding: 110px 0px 75px 0px;
+}
+
+.cases span{
+	display: block;
+	text-align: center;
+	margin: 0px 0px 600px 0px;
+}
+
+.payment{
+	height: 955px;
+	background: url(../img/lineend.png) 49% 80% no-repeat;
+}
+
+.payment h2{
+	text-align: center;
+	font-size: 25px;
+	padding: 210px 0px 60px 0px;
+	font-weight: bold; 
+}
+
+.payment span{
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px 0px 25px 495px;
+
+}
+
+.payment select{
+	width: 890px;
+	height: 60px;
+	margin: 0px 535px 50px 495px;
+	padding: 0px 0px 0px 25px;
+	background: #efefef;
+}
+
+.statistics{
+	width: 100%;
+	height: 500px;
+	background:url(../img/slime.png) 26.4% 60% no-repeat, url(../img/developO.png) 42.6% 60% no-repeat, url(../img/cup.png) 59% 60% no-repeat, url(../img/checkmark.png) 74.6% 60% no-repeat, url(../img/plashka.png) 50% 32% no-repeat, url(../img/backstat.png) center no-repeat;
+	text-align: center;
+}
+
+.statistics h2{
+	font-size: 25px;
+	padding: 100px 0px 205px 0px;
+	font-weight: bold;
+}
+
+.statistics div{
+	display: inline-block;
+	color: #283c4f;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 0px 120px;
+}
+
+.statistics span{
+	display: inline-block;
+	color: #283c4f;
+	font-size: 15px;
+	padding: 20px 80px;
+	font-weight: bold;
+}
+
+.review{
+	background: url(../img/plashka.png) 50% 27% no-repeat, url(../img/ava.png) 50% 45% /auto 100px no-repeat;
+	width: 100%;
+	height: 590px;
+}
+
+.review h2{
+	text-align: center;
+	font-size: 25px;
+	padding: 105px 0px 235px 0px;
+	font-weight: bold;
+}
+
+.review span{
+	display: block;
+	font-size: 15px;
+	width: 690px;
+	text-align: center;
+	margin: 0px 0px 40px 615px; 
+}
+
+.contacts{
+	background:url(../img/plashka.png) 50% 20% no-repeat, url(../img/geo.png) 36% 35% no-repeat, url(../img/corvette.png) 50% 35% no-repeat, url(../img/phone.png) 64% 35% no-repeat, url(../img/backcont.png) no-repeat;
+	height: 810px;
+	color: white;
+	text-align: center;
+}
+
+.contacts h2{
+	font-size: 25px;
+	padding: 110px 0px 75px 0px;
+}
+
+.contacts span{
+	display: block;
+	font-size: 15px;
+	text-align: center;
+	padding: 0px 0px 90px 0px;
+}
+
+.contacts spaninf{
+	display: inline-block;
+	font-size: 15px;
+	width: 160px;
+	margin: 0px 50px 40px 50px;
+}
+
+.contacts h3{
+	font-size: 20px;
+	padding: 0px 0px 45px 0px;
+} 
+
+.Name{
+	width: 355px;
+	height: 35px;
+	margin: 0px 20px;
+	padding: 0px 10px;
+	background: #d1d7dd;
+}
+
+.Mail{
+	width: 355px;
+	height: 35px;
+	margin: 0px 20px;
+	padding: 0px 5px;
+	background: #d1d7dd;
+}
+
+.contacts textarea{
+	width: 755px;
+	height: 95px;
+	margin: 15px 0px;
+	padding: 0px 5px;
+	background: #d1d7dd;
+}
+
+.Send{
+	width: 125px;
+	height: 45px;
+	border-radius: 3px;
+	background: none;
+	border: 2px solid white;
+	color: white;
+}
+
+.maps{
+	height: 350px;
+	background: url(../img/maps.png) no-repeat;
+}
+
+.maps input{
+	background: white;
+	width: 135px;
+	height: 45px;
+	margin: 145px 0px 0px 865px;
+}
+
+footer{
+	height: 60px;
+	background: #2c3e51;
+	text-align: center;
+	padding: 25px 0px;
+	color: white; 
+}
